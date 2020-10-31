@@ -20,7 +20,7 @@ public abstract class Page {
 	public abstract WebElement getElement(By locator);
 	
 	public abstract String getPageTitle();
-
+public abstract WebElement getElement(By locator, String test);
 	
 	public abstract void waitForElement(By locator);
 	public abstract void waitForTitle(String title);
